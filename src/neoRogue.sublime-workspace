@@ -1,0 +1,813 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"love.window.getWidth()"
+			],
+			[
+				"FONT",
+				"FONT_WIDTH"
+			],
+			[
+				"FONT_",
+				"FONT_WIDTH"
+			],
+			[
+				"font",
+				"fontGlyphsQuads"
+			],
+			[
+				"draw",
+				"drawCanvas"
+			],
+			[
+				"left",
+				"leftOffset"
+			],
+			[
+				"lef",
+				"leftOffset"
+			],
+			[
+				"RUN",
+				"RUNSAVE_FILE"
+			],
+			[
+				"le",
+				"leftOffset"
+			],
+			[
+				"Dou",
+				"DoubleLeftRotation"
+			],
+			[
+				"int",
+				"intNode"
+			],
+			[
+				"DEP",
+				"DEP_FILE"
+			],
+			[
+				"DE",
+				"DEP_FILENAME"
+			],
+			[
+				"SRC",
+				"SRC"
+			],
+			[
+				"file",
+				"fileName"
+			],
+			[
+				"obj",
+				"OBJ_FOLDER"
+			],
+			[
+				"src",
+				"SRC_FOLDER"
+			],
+			[
+				"EXEC",
+				"EXEC_FOLDER"
+			],
+			[
+				"redi",
+				"Redimentionnement"
+			],
+			[
+				"test",
+				"testReunir1"
+			],
+			[
+				"print",
+				"printGras"
+			],
+			[
+				"testA",
+				"testAjuster"
+			],
+			[
+				"Colle",
+				"collectionReunir"
+			],
+			[
+				"collection",
+				"collectionTest"
+			],
+			[
+				"A",
+				"Afficher"
+			],
+			[
+				"T",
+				"TAILLE_TEST"
+			],
+			[
+				"EX",
+				"executable"
+			],
+			[
+				"ADDI",
+				"ADDITIONAL_CLEAN"
+			],
+			[
+				"CLEAN",
+				"CLEAN_FLAG"
+			],
+			[
+				"OB",
+				"OBJS_FOLDER"
+			],
+			[
+				"CC",
+				"CC_OUTPUT_FLAG"
+			],
+			[
+				"pri",
+				"printAlloue"
+			],
+			[
+				"alo",
+				"alloue"
+			],
+			[
+				"nouveau",
+				"nouveauTableau"
+			],
+			[
+				"OBJS",
+				"OBJSPATH"
+			],
+			[
+				"Player",
+				"PlayerSprite"
+			],
+			[
+				"Spri",
+				"SpriteTexture"
+			],
+			[
+				"cur",
+				"currentPlayer"
+			],
+			[
+				"se",
+				"selected"
+			],
+			[
+				"else",
+				"elseif"
+			],
+			[
+				"sel",
+				"selectedCard"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"selec",
+				"selectedCard"
+			],
+			[
+				"player",
+				"player1"
+			],
+			[
+				"double",
+				"doubleChain_printInverted"
+			],
+			[
+				"doub",
+				"doubleChain_purgeNode"
+			],
+			[
+				"doubleCha",
+				"doubleChain_remove"
+			],
+			[
+				"watc",
+				"watcher"
+			],
+			[
+				"doubleChain",
+				"doubleChain_delete"
+			],
+			[
+				"doubl",
+				"doubleChain_print"
+			],
+			[
+				"newN",
+				"nullNewNode"
+			],
+			[
+				"D",
+				"doubleChaineE"
+			],
+			[
+				"p",
+				"prev"
+			],
+			[
+				"register",
+				"registerClic"
+			],
+			[
+				"mouse",
+				"mouseOver"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.lua",
+			"settings":
+			{
+				"buffer_size": 743,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "classes/map.lua",
+			"settings":
+			{
+				"buffer_size": 1584,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "classes/font.lua",
+			"settings":
+			{
+				"buffer_size": 1712,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "conf.lua",
+			"settings":
+			{
+				"buffer_size": 3044,
+				"line_ending": "Unix",
+				"name": "function love.conf(t)"
+			}
+		},
+		{
+			"contents": "{\n    \"selector\": \"source.lua\",\n    \"cmd\": [\"love\", \"${project_path:${file_path}}\"],\n    \"file_regex\": \"^Error: (?:[^:]+: )?([^: ]+?):(\\\\d+):() ([^:]*)$\"\n}",
+			"file": "/home/element/.config/sublime-text-2/Packages/User/CustomLoveProject.sublime-build",
+			"file_size": 142,
+			"file_write_time": 1446750276000000,
+			"settings":
+			{
+				"buffer_size": 155,
+				"line_ending": "Unix",
+				"name": "untitled.sublime-build"
+			}
+		}
+	],
+	"build_system": "Packages/User/CustomLoveProject.sublime-build",
+	"command_palette":
+	{
+		"height": 264.0,
+		"selected_items":
+		[
+			[
+				"tags",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Add Channel"
+			],
+			[
+				"Mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"PACK",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/element/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/element/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/element/Documents/INSA/POLYCOPS/main.lua",
+		"/home/element/Documents/INSA/POLYCOPS/decode.c",
+		"/home/element/Documents/INSA/POLYCOPS/test-fond.png",
+		"/home/element/Documents/CODE/neoRogue/src/res/fonts/font.png",
+		"/home/element/Documents/CODE/neoRogue/main.lua",
+		"/home/element/.cache/.fr-5ARctY/loop-2.3-beta/lua/precompiler.lua",
+		"/home/element/.cache/.fr-ecpbpE/loop-2.3-beta/lua/preloader.lua",
+		"/home/element/Documents/CODE/neoRogue/printAscii.c",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN2/src/.tags",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN2/src/.tags_sorted_by_file",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN2/src/Event.h",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN2/src/Event.cpp",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN2/src/EventList.h",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN2/makedep.lua",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN2/dep/Deps.dep",
+		"/home/element/.profile",
+		"/home/element/.bashrc",
+		"/home/element/Apps/Ctags/buildCtags",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/.gitignore",
+		"/home/element/.config/sublime-text-2/Packages/User/CTags.sublime-settings",
+		"/home/element/.config/sublime-text-2/Packages/CTags/CTags.sublime-settings",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN2/src/MiniLikedCharList.h",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN2/dep/Main.dep",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN2/dep/Dep.dep",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN2/dep/Main.d",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN2/src/main.cpp",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN2/src/main.h",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN1/src/Collection.cpp",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN1/src/main.cpp",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN1/src/makefile",
+		"/home/element/Téléchargements/test.sh",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN1/src/main.h",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN1/src/Collection.h",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN1/src/out.out",
+		"/usr/share/applications/copy of sublimeText2.desktop",
+		"/home/element/Documents/INSA/TD/MAKE/TD 1/sujet",
+		"/home/element/Documents/CODE/TEMP/FriendshipTes/main.cpp",
+		"/home/element/Documents/CODE/TEMP/FloatTestes/main.cpp",
+		"/home/element/Documents/CODE/LOVE/Village/main.lua",
+		"/home/element/Documents/INSA/TD/MAKE/TD 1/TEST/make",
+		"/home/element/Documents/INSA/TD/MAKE/TD 1/TEST/liste",
+		"/home/element/Documents/INSA/TD/ENGLISH /Body Language.md",
+		"/home/element/.config/sublime-text-2/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/home/element/Documents/INSA/TD/MAKE/TD 1/makes.md",
+		"/home/element/Documents/test.md",
+		"/home/element/Téléchargements/Pack Parrain 3IF 2015/BDR - Bases de Données Relationelles/TD TP/BDR - TD1 2014 - Correction.sql",
+		"/home/element/Documents/TD/CPP/TD2 Classes Atributs Methodes/EXO 1/main.cpp",
+		"/home/element/Documents/CODE/INFO/TEST MAKE ET C/err.txt",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN1/src/collection.h",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN1/src/collection.cpp",
+		"/home/element/Documents/CODE/INFO/TEST MAKE ET C/makefile",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN1/src/Test.cpp",
+		"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN1/src/Test.h",
+		"/home/element/Documents/CODE/OTHER/kittensGameSave.txt",
+		"/home/element/Documents/TD/CPP/TD2 Classes Atributs Methodes/EXO 1/colis.cpp",
+		"/home/element/Documents/TD/CPP/TD2 Classes Atributs Methodes/EXO 1/colis.h",
+		"/home/element/Documents/TD/CPP/TD2 Classes Atributs Methodes/EXO 1/bonlivraison.cpp",
+		"/home/element/Documents/TD/CPP/TD2 Classes Atributs Methodes/EXO 1/bonlivraison.h",
+		"/home/element/Documents/CODE/MODELISATION DES DONNEES/2015-09-23 Modélisation des Données",
+		"/home/element/Documents/TD/minionmake",
+		"/home/element/Documents/CODE/PSEUDOCODE/2015-09-21 TP Algo 1.pseudocode",
+		"/home/element/Images/Work/test.tmx",
+		"/home/element/Temporary/Numix-Circle/index.theme",
+		"/home/element/Documents/CODE/TEMP/main.cpp",
+		"/home/element/Temporary/ICONS MIX/index.theme",
+		"/home/element/Documents/TP/INSA3IFTP/TD3/main.c",
+		"/home/element/Documents/TP/INSA3IFTP/TD3/test",
+		"/home/element/.gimp-2.8/palettes/db16.pal",
+		"/home/element/Temporary/Flattr/index.theme",
+		"/home/element/Documents/TP/INSA3IFTP/TP ALGO 1/main.c",
+		"/home/element/Documents/TP/TP ALGO/main.c",
+		"/home/element/Documents/TP/TP ALGO/doubleChain.h",
+		"/home/element/Documents/TP/TP ALGO/doubleChain.cpp",
+		"/home/element/Documents/TP/TP ALGO/doubleChainE.cpp",
+		"/home/element/Documents/TD/CPP/Mot.h",
+		"/home/element/Documents/TD/CPP/Mot.cpp",
+		"/home/element/Documents/TD/CPP/Main.cpp",
+		"/home/element/Documents/TP/TP ALGO/doubleChainE.h",
+		"/home/element/Documents/TP/TP ALGO/main.cpp",
+		"/home/element/Téléchargements/Unigine_Valley-1.0.run",
+		"/home/element/SC/SC/no cd crack/README.txt",
+		"/home/element/.PlayOnLinux/wineprefix/STARCRAFT/drive_c/Program Files/Starcraft/characters/Valden.spc",
+		"/home/element/Documents/CODE/ALGO/TP ALGO1/EXO1.c",
+		"/home/element/Documents/CODE/ALGO/TP ALGO1/TPALGOLISTE.c",
+		"/home/element/Documents/CODE/ALGO/TP ALGO1/EXO4.c",
+		"/home/element/Documents/CODE/OTHER/launch.sh",
+		"/home/element/Documents/CODE/kittensGameSave.txt",
+		"/media/element/C2262F72262F671F/Linux The Backup/projects/OverLoad/Overload",
+		"/home/element/Documents/CODE/INFO/BASH/trololo.sh",
+		"/home/element/Documents/CODE/INFO/BASH/typewritter.sh",
+		"/home/element/Documents/COURS/INFO SYSTEME/2015-09-21 C Plus Plus.tex",
+		"/home/element/Documents/CODE/INFO/TEST MAKE ET C/monTest",
+		"/home/element/texmf/tex/latex/commonstuff/lien",
+		"/media/element/C2262F72262F671F/Users/Valden/Applications/LOVE/Projects/Tests/main.lua",
+		"/home/element/Documents/CODE/INFO/TEST MAKE ET C/src/main.cpp",
+		"/home/element/Documents/CODE/INFO/TEST MAKE ET C/lama.h",
+		"/home/element/Documents/CODE/INFO/TEST MAKE ET C/lama.cpp",
+		"/home/element/Documents/CODE/INFO/TEST MAKE ET C/main.h",
+		"/home/element/Documents/CODE/INFO/TEST MAKE ET C/main.cpp",
+		"/home/element/Documents/COURS/README.md",
+		"/home/element/Documents/COURS/custom.sty",
+		"/home/element/.config/sublime-text-2/Packages/User/CustomLoveProject.sublime-build",
+		"/home/element/result.txt",
+		"/home/element/Documents/CODE/LOVE/Village/button.lua",
+		"/home/element/texmf/custom.sty",
+		"/home/element/texmf/tex/latex/commonstuff/custom.sty",
+		"/home/element/Temporary/ping.log",
+		"/home/element/sketchbook/projects/MiniHeroQuest/converter/tilemapconverter/converter/main.lua",
+		"/home/element/sketchbook/projects/MiniHeroQuest/converter/tilemapconverter/converter/data/01.lua",
+		"/home/element/Documents/CODE/OTHER/Generate typewriting text/output.sh",
+		"/home/element/Documents/CODE/OTHER/Generate typewriting text/generator.lua",
+		"/home/element/Apps/Sublime Text 2/sublime_plugin.py",
+		"/home/element/Apps/Sublime Text 2/PackageSetup.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN2/src",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"FONT_HEIGHT",
+			"FONT_WIDTH",
+			"fontGlyphsQuads",
+			"FONT_SPRITES_SIZE.y",
+			"FONT_SPRITES_SIZE.x",
+			"FONT_WIDHT",
+			"<<<<<<",
+			"<<<<<<<",
+			"ComputeHeight()",
+			"Display",
+			"leftRotation",
+			"RightRotate",
+			"LeftRotate",
+			"SetRight",
+			"SetLeft",
+			"left",
+			"height",
+			"factor",
+			"vertOffset",
+			"rightOffset",
+			"leftOffset",
+			"JAVADOC_AUTOBRIEF ",
+			"right",
+			"Right",
+			"right",
+			"left",
+			"Left",
+			"left",
+			"DEP_FIL",
+			"uint8_t",
+			"uint32_t",
+			"unit32_t",
+			"free",
+			"\\033[21m",
+			"\\033[21",
+			"\\033[1m",
+			"int tabBase[] = {\n			1,42,1,42,8,4,42,42,42,1,8,9,42,42,8,7,3,42,8\n		};",
+			":",
+			"(Q[0-9][0-9 ])",
+			"Q[0-9]",
+			"Q",
+			"Fusion",
+			"Tableau",
+			"TableauC",
+			"Tableau",
+			"42",
+			"int tabBase[] = {\n		1,\n		42,\n		1,\n		42,\n		8,\n		4,\n		42,\n		42,\n		42,\n		1,\n		8,\n		9,\n		42,\n		42,\n		8,\n		7,\n		3,\n		42,\n		8\n	};",
+			"		int tabBase[] = {\n			1,\n			42,\n			1,\n			42,\n			8,\n			4,\n			42,\n			42,\n			42,\n			1,\n			8,\n			9,\n			42,\n			42,\n			8,\n			7,\n			3,\n			42,\n			8\n		};\n			",
+			",\n			",
+			"cout <<BOLD_SYMBOL<<",
+			"cout <<BOLD_SYMBOL<< \"=",
+			"cout <<BOLD_SYMBOL<< \"",
+			"std::",
+			"PRINT",
+			"float",
+			"@printf",
+			"free",
+			"maCol",
+			"${user}",
+			"${year}",
+			"${date}",
+			"${file_base}",
+			"XXX_H",
+			"${file_base}",
+			"Applications",
+			"Swap",
+			"Left",
+			"\\n",
+			"print",
+			";\n",
+			");",
+			",y",
+			",",
+			"50",
+			" i ",
+			"i",
+			"Trolol",
+			"currentNode",
+			"Chainon",
+			"\\$\\\\rightarrow\\$",
+			"isClicked",
+			"x",
+			"b",
+			";",
+			"ms",
+			"64 bytes from 8\\.8\\.8\\.8: icmp_seq=.... ttl=58 time=",
+			"64 bytes from 8\\.8\\.8\\.8: icmp_seq=... ttl=58 time=",
+			"64 bytes from 8\\.8\\.8\\.8: icmp_seq=.. ttl=58 time=",
+			"64 bytes from 8\\.8\\.8\\.8: icmp_seq=. ttl=58 time=",
+			"64 bytes from 8.8.8.8: icmp_seq=1 ttl=58 time="
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ComputeHeight(true)",
+			"Serialize",
+			"LeftRotation",
+			"RightRotation",
+			"RighttRotation",
+			"leftRotation",
+			"setRight",
+			"setLeft",
+			"unsigned char",
+			"long",
+			"delete",
+			"int tabBase[] = {1,42,1,42,8,4,42,42,42,1,8,9,42,42,8,7,3,42,8};",
+			"",
+			"\\\\item[$1]",
+			"\\item[",
+			"int tabBase[] = {\n			1,42,1,42,8,4,42,42,42,1,8,9,42,42,8,7,3,42,8\n		};",
+			"PRINT",
+			"cespeute & brenault",
+			"2015",
+			"2015/10/09",
+			"Test",
+			"TEST_H",
+			"Test",
+			"\\r\\n",
+			"\\\\\\\\\\n\\$\\\\downarrow\\$\\\\\\\\\\n",
+			""
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.lua",
+					"settings":
+					{
+						"buffer_size": 743,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								693,
+								693
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeLove/Love.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 204.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "classes/map.lua",
+					"settings":
+					{
+						"buffer_size": 1584,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								925,
+								925
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeLove/Love.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 734.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "classes/font.lua",
+					"settings":
+					{
+						"buffer_size": 1712,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								212,
+								212
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/SublimeLove/Love.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 102.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "conf.lua",
+					"settings":
+					{
+						"buffer_size": 3044,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								49,
+								49
+							]
+						],
+						"settings":
+						{
+							"auto_name": "function love.conf(t)",
+							"syntax": "Packages/SublimeLove/Love.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/element/.config/sublime-text-2/Packages/User/CustomLoveProject.sublime-build",
+					"settings":
+					{
+						"buffer_size": 155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68,
+								68
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 76.0
+	},
+	"output.find_results":
+	{
+		"height": 112.0
+	},
+	"output.markdown":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
