@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"w",
+				"width"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"r",
+				"love.math.random(max)"
+			],
+			[
+				"ran",
+				"love.math.random(min, max)"
+			],
+			[
 				"get",
 				"love.window.getWidth()"
 			],
@@ -231,7 +247,31 @@
 			"file": "main.lua",
 			"settings":
 			{
-				"buffer_size": 743,
+				"buffer_size": 2005,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/element/Documents/CODE/neoRogue/README.md",
+			"settings":
+			{
+				"buffer_size": 797,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/element/Documents/CODE/neoRogue/makefile",
+			"settings":
+			{
+				"buffer_size": 56,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "libs/shine/init.lua",
+			"settings":
+			{
+				"buffer_size": 3445,
 				"line_ending": "Unix"
 			}
 		},
@@ -239,16 +279,25 @@
 			"file": "classes/map.lua",
 			"settings":
 			{
-				"buffer_size": 1584,
+				"buffer_size": 2073,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "classes/font.lua",
+			"file": "classes/entity.lua",
 			"settings":
 			{
-				"buffer_size": 1712,
+				"buffer_size": 343,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "classes/game.lua",
+			"settings":
+			{
+				"buffer_size": 400,
+				"line_ending": "Unix",
+				"name": "Game"
 			}
 		},
 		{
@@ -261,15 +310,45 @@
 			}
 		},
 		{
-			"contents": "{\n    \"selector\": \"source.lua\",\n    \"cmd\": [\"love\", \"${project_path:${file_path}}\"],\n    \"file_regex\": \"^Error: (?:[^:]+: )?([^: ]+?):(\\\\d+):() ([^:]*)$\"\n}",
 			"file": "/home/element/.config/sublime-text-2/Packages/User/CustomLoveProject.sublime-build",
-			"file_size": 142,
-			"file_write_time": 1446750276000000,
 			"settings":
 			{
 				"buffer_size": 155,
 				"line_ending": "Unix",
 				"name": "untitled.sublime-build"
+			}
+		},
+		{
+			"file": "paths.lua",
+			"settings":
+			{
+				"buffer_size": 278,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "classes/font.lua",
+			"settings":
+			{
+				"buffer_size": 1712,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "constants.lua",
+			"settings":
+			{
+				"buffer_size": 76,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "│	nbbbzZ┤	╡	╢	╖	╕	╣	║	╗	╝	╜	╛	┐\nC	└	┴	┬	├	─	┼	╞	╟	╚	╔	╩	╦	╠	═	╬	╧\nD	╨	╤	╥	╙	╘	╒	╓	╫	╪	┘	┌",
+			"settings":
+			{
+				"buffer_size": 89,
+				"line_ending": "Unix",
+				"name": "│	nbbbzZ┤	╡	╢	╖	╕	╣	║	╗	╝	╜	╛	┐"
 			}
 		}
 	],
@@ -329,6 +408,14 @@
 	},
 	"file_history":
 	[
+		"/home/element/Documents/CODE/neoRogue/src/classes/font.lua",
+		"/home/element/Documents/CODE/neoRogue/src/libs/shine/dmg.lua",
+		"/home/element/Documents/CODE/neoRogue/src/libs/shine/crt.lua",
+		"/home/element/Documents/CODE/neoRogue/src/classes/main.lua",
+		"/home/element/Documents/CODE/neoRogue/src/libs/shine/filmgrain.lua",
+		"/home/element/Documents/CODE/neoRogue/src/libs/shine/scanlines.lua",
+		"/home/element/.cache/.fr-voJewj/main.lua",
+		"/home/element/Documents/CODE/neoRogue/src/classes/classes/map.lua",
 		"/home/element/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
 		"/home/element/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 		"/home/element/Documents/INSA/POLYCOPS/main.lua",
@@ -464,6 +551,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"x",
+			"BASE",
 			"FONT_HEIGHT",
 			"FONT_WIDTH",
 			"fontGlyphsQuads",
@@ -605,15 +694,15 @@
 					"file": "main.lua",
 					"settings":
 					{
-						"buffer_size": 743,
+						"buffer_size": 2005,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								693,
-								693
+								738,
+								738
 							]
 						],
 						"settings":
@@ -622,68 +711,173 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 204.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "classes/map.lua",
+					"file": "/home/element/Documents/CODE/neoRogue/README.md",
 					"settings":
 					{
-						"buffer_size": 1584,
+						"buffer_size": 797,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								925,
-								925
+								796,
+								796
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SublimeLove/Love.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"spell_check": true,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 734.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "classes/font.lua",
+					"file": "/home/element/Documents/CODE/neoRogue/makefile",
 					"settings":
 					{
-						"buffer_size": 1712,
+						"buffer_size": 56,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								212,
-								212
+								7,
+								7
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/SublimeLove/Love.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 102.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+					"file": "libs/shine/init.lua",
+					"settings":
+					{
+						"buffer_size": 3445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2870,
+								2870
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeLove/Love.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "classes/map.lua",
+					"settings":
+					{
+						"buffer_size": 2073,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeLove/Love.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "classes/entity.lua",
+					"settings":
+					{
+						"buffer_size": 343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								214,
+								214
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeLove/Love.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "classes/game.lua",
+					"settings":
+					{
+						"buffer_size": 400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								396,
+								396
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Game",
+							"syntax": "Packages/SublimeLove/Love.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "conf.lua",
 					"settings":
 					{
@@ -694,8 +888,8 @@
 						"selection":
 						[
 							[
-								49,
-								49
+								570,
+								570
 							]
 						],
 						"settings":
@@ -712,7 +906,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 8,
 					"file": "/home/element/.config/sublime-text-2/Packages/User/CustomLoveProject.sublime-build",
 					"settings":
 					{
@@ -730,6 +924,117 @@
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 9,
+					"file": "paths.lua",
+					"settings":
+					{
+						"buffer_size": 278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								200,
+								200
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeLove/Love.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "classes/font.lua",
+					"settings":
+					{
+						"buffer_size": 1712,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeLove/Love.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 273.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "constants.lua",
+					"settings":
+					{
+						"buffer_size": 76,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12,
+								12
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeLove/Love.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"settings":
+					{
+						"buffer_size": 89,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8,
+								8
+							]
+						],
+						"settings":
+						{
+							"auto_name": "│	nbbbzZ┤	╡	╢	╖	╕	╣	║	╗	╝	╜	╛	┐",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -757,11 +1062,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":

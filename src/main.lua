@@ -1,9 +1,13 @@
+require "classes/game"
 Font = require "classes/font"
 Map  = require "classes/map"
 shine = require 'libs/shine/'
 
+
 function love.load()
 	-- Load the font :
+	Game:init()
+
 	aFont = Font("res/fonts/font.png",16,16)
 	aMap  = Map(1000,1000,aFont)
 
@@ -24,7 +28,7 @@ function love.load()
 
     local dmg = shine.dmg()
     -- you can chain multiple effects
-    post_effect = dmg:chain(scanLines):chain(grain):chain(vignette):chain(crt)
+    post_effect = scanLines:chain(grain):chain(vignette):chain(crt)
 
     -- warning - setting parameters affects all chained effects:
     post_effect.opacity = 0.5 -- affects both vignette and film grain
@@ -37,18 +41,19 @@ timer = 0
 
 function love.update(dt)
 	timer = timer + dt
-	if timer > 0.01 then
-		glyph = (glyph + 1)%(16*16)
-		timer = 0
-		--aMap:setChar(glyph,5,5)
-		for i = 0, 100 do
-			for j = 0, 100 do
-				if(love.math.random(20)<2) then
-					aMap:setChar((glyph+love.math.random(0, 112))%112,i,j)
-				end
-			end
-		end
-	end -- if
+	Game:handleInput()
+	-- if timer > 0.01 then
+	-- 	glyph = (glyph + 1)%(16*16)
+	-- 	timer = 0
+	-- 	--aMap:setChar(glyph,5,5)
+	-- 	for i = 0, 100 do
+	-- 		for j = 0, 100 do
+	-- 			if(love.math.random(20)<2) then
+	-- 				aMap:setChar((glyph+love.math.random(0, 112))%112,i,j)
+	-- 			end
+	-- 		end
+	-- 	end
+	-- end -- if
 
 end	-- love.update(dt)
 
@@ -62,6 +67,7 @@ function love.draw()
 		--aFont:drawChar(glyph,0,0)
 		--aFont:drawString("Hello World Hohoh",0,8)
 		aMap:draw()
+		Game:draw()
 
 	end)
 	love.graphics.setColor(255,255,200)
