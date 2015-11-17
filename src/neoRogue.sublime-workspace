@@ -247,7 +247,7 @@
 			"file": "main.lua",
 			"settings":
 			{
-				"buffer_size": 2005,
+				"buffer_size": 2025,
 				"line_ending": "Unix"
 			}
 		},
@@ -287,7 +287,15 @@
 			"file": "classes/entity.lua",
 			"settings":
 			{
-				"buffer_size": 343,
+				"buffer_size": 586,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "classes/hero.lua",
+			"settings":
+			{
+				"buffer_size": 474,
 				"line_ending": "Unix"
 			}
 		},
@@ -295,7 +303,7 @@
 			"file": "classes/game.lua",
 			"settings":
 			{
-				"buffer_size": 400,
+				"buffer_size": 484,
 				"line_ending": "Unix",
 				"name": "Game"
 			}
@@ -322,7 +330,7 @@
 			"file": "paths.lua",
 			"settings":
 			{
-				"buffer_size": 278,
+				"buffer_size": 199,
 				"line_ending": "Unix"
 			}
 		},
@@ -338,7 +346,7 @@
 			"file": "constants.lua",
 			"settings":
 			{
-				"buffer_size": 76,
+				"buffer_size": 70,
 				"line_ending": "Unix"
 			}
 		},
@@ -541,6 +549,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"<open files>",
 			"/home/element/Documents/INSA/TP/INSA3IFTP/TPCppN2/src",
 			"<open files>",
 			""
@@ -551,6 +560,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"p.",
+			"c.",
 			"x",
 			"BASE",
 			"FONT_HEIGHT",
@@ -650,6 +661,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
 			"ComputeHeight(true)",
 			"Serialize",
 			"LeftRotation",
@@ -694,15 +706,15 @@
 					"file": "main.lua",
 					"settings":
 					{
-						"buffer_size": 2005,
+						"buffer_size": 2025,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								738,
-								738
+								1043,
+								1043
 							]
 						],
 						"settings":
@@ -711,7 +723,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 468.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -808,8 +820,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								562,
+								562
 							]
 						],
 						"settings":
@@ -828,15 +840,15 @@
 					"file": "classes/entity.lua",
 					"settings":
 					{
-						"buffer_size": 343,
+						"buffer_size": 586,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								214,
-								214
+								570,
+								570
 							]
 						],
 						"settings":
@@ -851,18 +863,46 @@
 				},
 				{
 					"buffer": 6,
-					"file": "classes/game.lua",
+					"file": "classes/hero.lua",
 					"settings":
 					{
-						"buffer_size": 400,
+						"buffer_size": 474,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								396,
-								396
+								461,
+								461
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/SublimeLove/Love.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "classes/game.lua",
+					"settings":
+					{
+						"buffer_size": 484,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								439,
+								439
 							]
 						],
 						"settings":
@@ -877,7 +917,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "conf.lua",
 					"settings":
 					{
@@ -906,7 +946,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "/home/element/.config/sublime-text-2/Packages/User/CustomLoveProject.sublime-build",
 					"settings":
 					{
@@ -934,23 +974,23 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "paths.lua",
 					"settings":
 					{
-						"buffer_size": 278,
+						"buffer_size": 199,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								200,
-								200
+								139,
+								139
 							]
 						],
 						"settings":
@@ -964,7 +1004,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "classes/font.lua",
 					"settings":
 					{
@@ -975,8 +1015,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								1254,
+								1254
 							]
 						],
 						"settings":
@@ -985,25 +1025,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 273.0,
+						"translation.y": 234.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "constants.lua",
 					"settings":
 					{
-						"buffer_size": 76,
+						"buffer_size": 70,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12,
-								12
+								69,
+								69
 							]
 						],
 						"settings":
@@ -1017,7 +1057,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 13,
 					"settings":
 					{
 						"buffer_size": 89,
