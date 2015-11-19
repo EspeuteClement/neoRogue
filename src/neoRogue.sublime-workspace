@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"fu",
+				"function	function"
+			],
+			[
 				"w",
 				"width"
 			],
@@ -292,18 +296,10 @@
 			}
 		},
 		{
-			"file": "classes/hero.lua",
-			"settings":
-			{
-				"buffer_size": 474,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "classes/game.lua",
 			"settings":
 			{
-				"buffer_size": 484,
+				"buffer_size": 842,
 				"line_ending": "Unix",
 				"name": "Game"
 			}
@@ -324,6 +320,38 @@
 				"buffer_size": 155,
 				"line_ending": "Unix",
 				"name": "untitled.sublime-build"
+			}
+		},
+		{
+			"file": "classes/commands.lua",
+			"settings":
+			{
+				"buffer_size": 339,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "classes/hero.lua",
+			"settings":
+			{
+				"buffer_size": 188,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/element/Documents/INSA/TD/ARCHITECHTURE DES CIRCUITS/adder.vhdl",
+			"settings":
+			{
+				"buffer_size": 1047,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/element/Téléchargements/Barracuda.java",
+			"settings":
+			{
+				"buffer_size": 6126,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -363,9 +391,21 @@
 	"build_system": "Packages/User/CustomLoveProject.sublime-build",
 	"command_palette":
 	{
-		"height": 264.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"IN",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"tags",
 				"CTags: Rebuild Tags"
@@ -560,6 +600,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"y",
+			"x",
+			"Move",
 			"p.",
 			"c.",
 			"x",
@@ -698,7 +741,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 9,
 			"sheets":
 			[
 				{
@@ -803,7 +846,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 351.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -847,8 +890,8 @@
 						"selection":
 						[
 							[
-								570,
-								570
+								0,
+								0
 							]
 						],
 						"settings":
@@ -863,23 +906,23 @@
 				},
 				{
 					"buffer": 6,
-					"file": "classes/hero.lua",
+					"file": "classes/game.lua",
 					"settings":
 					{
-						"buffer_size": 474,
+						"buffer_size": 842,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								461,
-								461
+								827,
+								827
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
+							"auto_name": "Game",
 							"syntax": "Packages/SublimeLove/Love.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -891,33 +934,6 @@
 				},
 				{
 					"buffer": 7,
-					"file": "classes/game.lua",
-					"settings":
-					{
-						"buffer_size": 484,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								439,
-								439
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Game",
-							"syntax": "Packages/SublimeLove/Love.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
 					"file": "conf.lua",
 					"settings":
 					{
@@ -946,7 +962,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 8,
 					"file": "/home/element/.config/sublime-text-2/Packages/User/CustomLoveProject.sublime-build",
 					"settings":
 					{
@@ -970,15 +986,124 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "classes/commands.lua",
+					"settings":
+					{
+						"buffer_size": 339,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								109,
+								109
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeLove/Love.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 10,
+					"file": "classes/hero.lua",
+					"settings":
+					{
+						"buffer_size": 188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								174,
+								174
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/SublimeLove/Love.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/home/element/Documents/INSA/TD/ARCHITECHTURE DES CIRCUITS/adder.vhdl",
+					"settings":
+					{
+						"buffer_size": 1047,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/home/element/Téléchargements/Barracuda.java",
+					"settings":
+					{
+						"buffer_size": 6126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1148,
+								1148
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 273.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
 					"file": "paths.lua",
 					"settings":
 					{
@@ -1004,7 +1129,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 14,
 					"file": "classes/font.lua",
 					"settings":
 					{
@@ -1031,7 +1156,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 15,
 					"file": "constants.lua",
 					"settings":
 					{
@@ -1057,7 +1182,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 16,
 					"settings":
 					{
 						"buffer_size": 89,
@@ -1113,7 +1238,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.441611842105,
 			1.0
 		],
 		"rows":

@@ -42,6 +42,7 @@ timer = 0
 function love.update(dt)
 	timer = timer + dt
 	Game:handleInput()
+	Game:update(dt)
 	-- if timer > 0.01 then
 	-- 	glyph = (glyph + 1)%(16*16)
 	-- 	timer = 0
