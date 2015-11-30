@@ -7,7 +7,7 @@ local Commands = require (CLASSES_FOLDER.."commands")
 local Font = require (CLASSES_FOLDER.."font")
 local Entity = require (CLASSES_FOLDER.."entity")
 local Hero = require (CLASSES_FOLDER.."hero")
-
+local Tween = require (CLASSES_FOLDER .. "tween")
 local DummyUnit = require (CLASSES_FOLDER.."dummyunit")
 
 local Actors = {}
@@ -44,7 +44,10 @@ function Game:update(dt)
 
 	if not machin:awaitingInput() then
 		for _,actor in pairs(Actors) do
-			actor:executeCommand();
+			command = actor:getCommand();
+			if command then
+				command:execute()
+			end
 		end
 	end
 end

@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"tween",
+				"tweenY"
+			],
+			[
+				"twee",
+				"tweenX"
+			],
+			[
+				"current",
+				"currentTime"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"dt",
+				"dt"
+			],
+			[
+				"ene",
+				"energyLevel"
+			],
+			[
+				"ener",
+				"energyMax"
+			],
+			[
+				"is",
+				"isAwaitingInput"
+			],
+			[
+				"set",
+				"setAwaitingInput"
+			],
+			[
+				"energy",
+				"energyMax"
+			],
+			[
 				"fu",
 				"function	function"
 			],
@@ -184,10 +224,6 @@
 				"elseif"
 			],
 			[
-				"sel",
-				"selectedCard"
-			],
-			[
 				"sele",
 				"selected"
 			],
@@ -251,7 +287,7 @@
 			"file": "main.lua",
 			"settings":
 			{
-				"buffer_size": 2025,
+				"buffer_size": 2042,
 				"line_ending": "Unix"
 			}
 		},
@@ -272,14 +308,6 @@
 			}
 		},
 		{
-			"file": "libs/shine/init.lua",
-			"settings":
-			{
-				"buffer_size": 3445,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "classes/map.lua",
 			"settings":
 			{
@@ -291,7 +319,7 @@
 			"file": "classes/entity.lua",
 			"settings":
 			{
-				"buffer_size": 586,
+				"buffer_size": 3314,
 				"line_ending": "Unix"
 			}
 		},
@@ -299,9 +327,16 @@
 			"file": "classes/game.lua",
 			"settings":
 			{
-				"buffer_size": 842,
-				"line_ending": "Unix",
-				"name": "Game"
+				"buffer_size": 1603,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "classes/dummyunit.lua",
+			"settings":
+			{
+				"buffer_size": 625,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -326,7 +361,24 @@
 			"file": "classes/commands.lua",
 			"settings":
 			{
-				"buffer_size": 339,
+				"buffer_size": 430,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "notes/drafts",
+			"settings":
+			{
+				"buffer_size": 41,
+				"line_ending": "Unix",
+				"name": "start + (end - start)/percentage"
+			}
+		},
+		{
+			"file": "classes/tween.lua",
+			"settings":
+			{
+				"buffer_size": 735,
 				"line_ending": "Unix"
 			}
 		},
@@ -334,24 +386,8 @@
 			"file": "classes/hero.lua",
 			"settings":
 			{
-				"buffer_size": 188,
+				"buffer_size": 192,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/element/Documents/INSA/TD/ARCHITECHTURE DES CIRCUITS/adder.vhdl",
-			"settings":
-			{
-				"buffer_size": 1047,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/element/Téléchargements/Barracuda.java",
-			"settings":
-			{
-				"buffer_size": 6126,
-				"line_ending": "Windows"
 			}
 		},
 		{
@@ -374,7 +410,7 @@
 			"file": "constants.lua",
 			"settings":
 			{
-				"buffer_size": 70,
+				"buffer_size": 102,
 				"line_ending": "Unix"
 			}
 		},
@@ -394,6 +430,10 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"c",
+				"CTags: Rebuild Tags"
+			],
 			[
 				"IN",
 				"Package Control: Install Package"
@@ -456,6 +496,12 @@
 	},
 	"file_history":
 	[
+		"/home/element/Documents/CODE/neoRogue/src/classes/game.lua",
+		"/home/element/Documents/CODE/neoRogue/src/classes/classes/entity.lua",
+		"/home/element/Documents/CODE/neoRogue/src/res/fonts/font.png",
+		"/home/element/Documents/CODE/neoRogue/src/libs/shine/init.lua",
+		"/home/element/Documents/INSA/TD/ARCHITECHTURE DES CIRCUITS/adder.vhdl",
+		"/home/element/Téléchargements/Barracuda.java",
 		"/home/element/Documents/CODE/neoRogue/src/classes/font.lua",
 		"/home/element/Documents/CODE/neoRogue/src/libs/shine/dmg.lua",
 		"/home/element/Documents/CODE/neoRogue/src/libs/shine/crt.lua",
@@ -469,7 +515,6 @@
 		"/home/element/Documents/INSA/POLYCOPS/main.lua",
 		"/home/element/Documents/INSA/POLYCOPS/decode.c",
 		"/home/element/Documents/INSA/POLYCOPS/test-fond.png",
-		"/home/element/Documents/CODE/neoRogue/src/res/fonts/font.png",
 		"/home/element/Documents/CODE/neoRogue/main.lua",
 		"/home/element/.cache/.fr-5ARctY/loop-2.3-beta/lua/precompiler.lua",
 		"/home/element/.cache/.fr-ecpbpE/loop-2.3-beta/lua/preloader.lua",
@@ -600,6 +645,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"precision",
+			"halp",
+			"nudge",
+			"Hero",
+			"[",
 			"y",
 			"x",
 			"Move",
@@ -741,7 +791,7 @@
 	"groups":
 	[
 		{
-			"selected": 9,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -749,15 +799,15 @@
 					"file": "main.lua",
 					"settings":
 					{
-						"buffer_size": 2025,
+						"buffer_size": 2042,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1043,
-								1043
+								1059,
+								1059
 							]
 						],
 						"settings":
@@ -766,7 +816,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 468.0,
+						"translation.y": 273.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -826,33 +876,6 @@
 				},
 				{
 					"buffer": 3,
-					"file": "libs/shine/init.lua",
-					"settings":
-					{
-						"buffer_size": 3445,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2870,
-								2870
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SublimeLove/Love.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 351.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "classes/map.lua",
 					"settings":
 					{
@@ -863,8 +886,35 @@
 						"selection":
 						[
 							[
-								562,
-								562
+								1314,
+								1314
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeLove/Love.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 637.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "classes/entity.lua",
+					"settings":
+					{
+						"buffer_size": 3314,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								354,
+								354
 							]
 						],
 						"settings":
@@ -880,23 +930,24 @@
 				},
 				{
 					"buffer": 5,
-					"file": "classes/entity.lua",
+					"file": "classes/game.lua",
 					"settings":
 					{
-						"buffer_size": 586,
+						"buffer_size": 1603,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1192,
+								1192
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SublimeLove/Love.tmLanguage"
+							"syntax": "Packages/SublimeLove/Love.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -906,25 +957,24 @@
 				},
 				{
 					"buffer": 6,
-					"file": "classes/game.lua",
+					"file": "classes/dummyunit.lua",
 					"settings":
 					{
-						"buffer_size": 842,
+						"buffer_size": 625,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								827,
-								827
+								435,
+								435
 							]
 						],
 						"settings":
 						{
-							"auto_name": "Game",
-							"syntax": "Packages/SublimeLove/Love.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"auto_name": "",
+							"syntax": "Packages/SublimeLove/Love.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -992,15 +1042,15 @@
 					"file": "classes/commands.lua",
 					"settings":
 					{
-						"buffer_size": 339,
+						"buffer_size": 430,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								109,
-								109
+								333,
+								333
 							]
 						],
 						"settings":
@@ -1012,32 +1062,58 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 2,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 10,
-					"file": "classes/hero.lua",
+					"file": "notes/drafts",
 					"settings":
 					{
-						"buffer_size": 188,
+						"buffer_size": 41,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								174,
-								174
+								8,
+								8
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
+							"auto_name": "start + (end - start)/percentage",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 11,
+					"file": "classes/tween.lua",
+					"settings":
+					{
+						"buffer_size": 735,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								537,
+								537
+							]
+						],
+						"settings":
+						{
 							"syntax": "Packages/SublimeLove/Love.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -1048,56 +1124,29 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "/home/element/Documents/INSA/TD/ARCHITECHTURE DES CIRCUITS/adder.vhdl",
-					"settings":
-					{
-						"buffer_size": 1047,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 12,
-					"file": "/home/element/Téléchargements/Barracuda.java",
+					"file": "classes/hero.lua",
 					"settings":
 					{
-						"buffer_size": 6126,
+						"buffer_size": 192,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1148,
-								1148
+								173,
+								173
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Java/Java.tmLanguage",
+							"auto_name": "",
+							"syntax": "Packages/SublimeLove/Love.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 273.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1140,8 +1189,8 @@
 						"selection":
 						[
 							[
-								1254,
-								1254
+								1712,
+								1712
 							]
 						],
 						"settings":
@@ -1150,7 +1199,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 234.0,
+						"translation.y": 624.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1160,15 +1209,15 @@
 					"file": "constants.lua",
 					"settings":
 					{
-						"buffer_size": 70,
+						"buffer_size": 102,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								69,
-								69
+								101,
+								101
 							]
 						],
 						"settings":
@@ -1238,7 +1287,7 @@
 		"cols":
 		[
 			0.0,
-			0.441611842105,
+			0.511513157894,
 			1.0
 		],
 		"rows":
@@ -1250,7 +1299,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 76.0
+		"height": 128.0
 	},
 	"output.find_results":
 	{

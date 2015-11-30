@@ -1,0 +1,116 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+) first	libs/shine/init.lua	/^		second(function() first(func, unpack(args, 1, args.n)) end)$/;"	f
+Command:execute	classes/commands.lua	/^function Command:execute()$/;"	f
+Command:init	classes/commands.lua	/^function Command:init(entity)$/;"	f
+Commands.nudge:execute	classes/commands.lua	/^function Commands.nudge:execute()$/;"	f
+Commands.nudge:init	classes/commands.lua	/^function Commands.nudge:init(entity,dx,dy)$/;"	f
+DummyUnit:init	classes/dummyunit.lua	/^function DummyUnit:init(x,y)$/;"	f
+DummyUnit:update	classes/dummyunit.lua	/^function DummyUnit:update(dt)$/;"	f
+Entity:awaitingInput	classes/entity.lua	/^function Entity:awaitingInput()$/;"	f
+Entity:draw	classes/entity.lua	/^function Entity:draw()$/;"	f
+Entity:emptyEnergy	classes/entity.lua	/^function Entity:emptyEnergy()$/;"	f
+Entity:executeCommand	classes/entity.lua	/^function Entity:executeCommand(com)$/;"	f
+Entity:getCommand	classes/entity.lua	/^function Entity:getCommand()$/;"	f
+Entity:init	classes/entity.lua	/^function Entity:init(x,y,glyph,energyMax)$/;"	f
+Entity:move	classes/entity.lua	/^function Entity:move(x,y)$/;"	f
+Entity:nudge	classes/entity.lua	/^function Entity:nudge(dx,dy)$/;"	f
+Entity:setAwaitingInput	classes/entity.lua	/^function Entity:setAwaitingInput(b)$/;"	f
+Entity:setCommand	classes/entity.lua	/^function Entity:setCommand(com)$/;"	f
+Entity:update	classes/entity.lua	/^function Entity:update(dt)$/;"	f
+Font:drawChar	classes/font.lua	/^function Font:drawChar(code,x,y)$/;"	f
+Font:drawString	classes/font.lua	/^function Font:drawString(str,x,y )$/;"	f
+Font:init	classes/font.lua	/^function Font:init(bmp,w,h)$/;"	f
+Game:draw	classes/game.lua	/^function Game:draw()$/;"	f
+Game:handleInput	classes/game.lua	/^function Game:handleInput()$/;"	f
+Game:init	classes/game.lua	/^function Game:init()$/;"	f
+Game:registerInput	classes/game.lua	/^function Game:registerInput(key, command)$/;"	f
+Game:update	classes/game.lua	/^function Game:update(dt)$/;"	f
+Hero:init	classes/hero.lua	/^function Hero:init(x,y)$/;"	f
+Map:clear	classes/map.lua	/^function Map:clear()$/;"	f
+Map:draw	classes/map.lua	/^function Map:draw()$/;"	f
+Map:init	classes/map.lua	/^function Map:init(w,h,font)$/;"	f
+Map:moveCamera	classes/map.lua	/^function Map:moveCamera(x,y)$/;"	f
+Map:reDraw	classes/map.lua	/^function Map:reDraw()$/;"	f
+Map:resizeSpriteBatch	classes/map.lua	/^function Map:resizeSpriteBatch()$/;"	f
+Map:setChar	classes/map.lua	/^function Map:setChar(id,x,y)$/;"	f
+assert_class	libs/30log/30log.lua	/^local function assert_class(class, method) assert(_classes[class], ('Wrong method call. Expected class:%s.'):format(method)) end$/;"	f
+baseMt 	libs/30log/30log.lua	/^baseMt = { __call = function (self,...) return self:new(...) end, __tostring = function(self,...)$/;"	f
+build_blur_shader	libs/shine/glowsimple.lua	/^local function build_blur_shader(sigma)$/;"	f
+build_shader	libs/shine/gaussianblur.lua	/^local function build_shader(sigma)$/;"	f
+build_shader	libs/shine/pixelate.lua	/^local function build_shader(add_original, samples)$/;"	f
+c.extends 	libs/30log/30log.lua	/^  c.extends = function(self, class) assert_class(self, 'extends(class)') local super = self; repeat super = super.super until (super == class or super == nil); return class and (super == class) end$/;"	f
+c.include 	libs/30log/30log.lua	/^  c.include = function(self,mixin) assert_class(self, 'include(mixin)'); self.mixins[mixin] = true; return deep_copy(mixin, self, 'function') end$/;"	f
+c.new, c.extend, c.__index, c.includes 	libs/30log/30log.lua	/^  c.new, c.extend, c.__index, c.includes = instantiate, extend, c, function(self,mixin) assert_class(self,'includes(mixin)') return not not (self.mixins[mixin] or (self.super and self.super:includes(mixin))) end$/;"	f
+distort 	libs/shine/crt.lua	/^distort = function(self, x, y)$/;"	f
+draw 	libs/shine/boxblur.lua	/^draw = function(self, func, ...)$/;"	f
+draw 	libs/shine/colorgradesimple.lua	/^draw = function(self, func, ...)$/;"	f
+draw 	libs/shine/crt.lua	/^draw = function(self, func, ...)$/;"	f
+draw 	libs/shine/desaturate.lua	/^draw = function(self, func, ...)$/;"	f
+draw 	libs/shine/dmg.lua	/^	draw = function(self, func, ...)$/;"	f
+draw 	libs/shine/filmgrain.lua	/^draw = function(self, func, ...)$/;"	f
+draw 	libs/shine/gaussianblur.lua	/^draw = function(self, func, ...)$/;"	f
+draw 	libs/shine/glowsimple.lua	/^draw = function(self, func, ...)$/;"	f
+draw 	libs/shine/godsray.lua	/^	draw = function(self, func, ...)$/;"	f
+draw 	libs/shine/pixelate.lua	/^draw = function(self, func, ...)$/;"	f
+draw 	libs/shine/posterize.lua	/^draw = function(self, func, ...)$/;"	f
+draw 	libs/shine/scanlines.lua	/^draw = function(self, func, ...)$/;"	f
+draw 	libs/shine/separate_chroma.lua	/^draw = function(self, func, ...)$/;"	f
+draw 	libs/shine/sketch.lua	/^draw = function(self, func, ...)$/;"	f
+draw 	libs/shine/vignette.lua	/^draw = function(self, func, ...)$/;"	f
+effect:draw	libs/shine/init.lua	/^	function effect:draw(func, ...)$/;"	f
+effect:set	libs/shine/init.lua	/^	function effect:set(k, v)$/;"	f
+extend	libs/30log/30log.lua	/^local function extend(self, name, extra_params)$/;"	f
+instantiate	libs/30log/30log.lua	/^local function instantiate(self,...)$/;"	f
+local class 	libs/30log/30log.lua	/^local class = {isClass = function(class, ofsuper) local isclass = not not _classes[class]; if ofsuper then return isclass and (class.super == ofsuper) end; return isclass end, isInstance = function(instance, ofclass) $/;"	f
+local constructor 	libs/shine/init.lua	/^	local constructor = function(t)$/;"	f
+local function deep_copy(t, dest, aType) t 	libs/30log/30log.lua	/^local function deep_copy(t, dest, aType) t = t or {}; local r = dest or {}$/;"	f
+local isinstance 	libs/30log/30log.lua	/^	local isinstance = not not _instances[instance]; if ofclass then return isinstance and (instance.class == ofclass) end; return isinstance end}; _class = function(name, attr)$/;"	f
+local lookup_palette 	libs/shine/dmg.lua	/^local lookup_palette = function(name)$/;"	f
+love.conf	conf.lua	/^function love.conf(t)$/;"	f
+love.draw	main.lua	/^function love.draw()$/;"	f
+love.keypressed	main.lua	/^function love.keypressed(key, isrepeat)$/;"	f
+love.load	main.lua	/^function love.load()$/;"	f
+love.update	main.lua	/^function love.update(dt)$/;"	f
+new 	libs/shine/boxblur.lua	/^new = function(self)$/;"	f
+new 	libs/shine/colorgradesimple.lua	/^new = function(self)$/;"	f
+new 	libs/shine/crt.lua	/^new = function(self)$/;"	f
+new 	libs/shine/desaturate.lua	/^new = function(self)$/;"	f
+new 	libs/shine/dmg.lua	/^	new = function(self)$/;"	f
+new 	libs/shine/filmgrain.lua	/^new = function(self)$/;"	f
+new 	libs/shine/gaussianblur.lua	/^new = function(self)$/;"	f
+new 	libs/shine/glowsimple.lua	/^new = function(self)$/;"	f
+new 	libs/shine/godsray.lua	/^	new = function(self)$/;"	f
+new 	libs/shine/pixelate.lua	/^new = function(self)$/;"	f
+new 	libs/shine/posterize.lua	/^new = function(self)$/;"	f
+new 	libs/shine/scanlines.lua	/^new = function(self)$/;"	f
+new 	libs/shine/separate_chroma.lua	/^new = function(self)$/;"	f
+new 	libs/shine/sketch.lua	/^new = function(self)$/;"	f
+new 	libs/shine/vignette.lua	/^new = function(self)$/;"	f
+return setmetatable(class,{__call 	libs/30log/30log.lua	/^return setmetatable(class,{__call = function(_,...) return _class(...) end })/;"	f
+return setmetatable({}, {__index 	libs/shine/init.lua	/^return setmetatable({}, {__index = function(self, key)$/;"	f
+set 	libs/shine/boxblur.lua	/^set = function(self, key, value)$/;"	f
+set 	libs/shine/colorgradesimple.lua	/^set = function(self, key, value)$/;"	f
+set 	libs/shine/crt.lua	/^set = function(self, key, value)$/;"	f
+set 	libs/shine/desaturate.lua	/^set = function(self, key, value)$/;"	f
+set 	libs/shine/dmg.lua	/^	set = function(self, key, value)$/;"	f
+set 	libs/shine/filmgrain.lua	/^set = function(self, key, value)$/;"	f
+set 	libs/shine/gaussianblur.lua	/^set = function(self, key, value)$/;"	f
+set 	libs/shine/glowsimple.lua	/^set = function(self, key, value)$/;"	f
+set 	libs/shine/godsray.lua	/^	set = function(self, key, value)$/;"	f
+set 	libs/shine/pixelate.lua	/^set = function(self, key, value)$/;"	f
+set 	libs/shine/posterize.lua	/^set = function(self, key, value)$/;"	f
+set 	libs/shine/scanlines.lua	/^set = function(self, key, value)$/;"	f
+set 	libs/shine/separate_chroma.lua	/^set = function(self, key, value)$/;"	f
+set 	libs/shine/sketch.lua	/^set = function(self, key, value)$/;"	f
+set 	libs/shine/vignette.lua	/^set = function(self, key, value)$/;"	f
+shine.__newindex	libs/shine/init.lua	/^function shine.__newindex(self, k, v)$/;"	f
+shine._apply_shader_to_scene	libs/shine/init.lua	/^function shine._apply_shader_to_scene(_, shader, canvas, func, ...)$/;"	f
+shine._render_to_canvas	libs/shine/init.lua	/^function shine._render_to_canvas(_, canvas, func, ...)$/;"	f
+shine.chain	libs/shine/init.lua	/^function shine.chain(first, second)$/;"	f
+shine.draw	libs/shine/init.lua	/^function shine.draw()$/;"	f
+shine.set	libs/shine/init.lua	/^function shine.set()$/;"	f
