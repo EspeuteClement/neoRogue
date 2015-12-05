@@ -44,6 +44,10 @@ function Map:setChar(id,x,y)
 	self.array[x][y] = id
 end
 
+function Map:getChar(x,y)
+	return self.array[x][y]
+end
+
 function Map:moveCamera(x,y)
 	self.dirty = true
 	local x = x or 0

@@ -1,6 +1,5 @@
 require "classes/game"
 Font = require "classes/font"
-Map  = require "classes/map"
 shine = require 'libs/shine/'
 
 
@@ -8,8 +7,7 @@ function love.load()
 	-- Load the font :
 	Game:init()
 
-	aFont = Font("res/fonts/font.png",16,16)
-	aMap  = Map(1000,1000,aFont)
+
 
 	local grain = shine.filmgrain()
 
@@ -33,7 +31,7 @@ function love.load()
     -- warning - setting parameters affects all chained effects:
     post_effect.opacity = 0.5 -- affects both vignette and film grain
 	
-	aMap:setChar(1,5,5)
+
 end -- love.load()
 
 glyph = 0
@@ -67,7 +65,7 @@ function love.draw()
 		--love.graphics.setColor(55,25,200)
 		--aFont:drawChar(glyph,0,0)
 		--aFont:drawString("Hello World Hohoh",0,8)
-		aMap:draw()
+		--aMap:draw()
 		Game:draw()
 
 	end)

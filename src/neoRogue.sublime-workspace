@@ -4,12 +4,32 @@
 		"selected_items":
 		[
 			[
-				"tween",
-				"tweenY"
+				"is",
+				"isMoving"
 			],
 			[
 				"twee",
 				"tweenX"
+			],
+			[
+				"upDa",
+				"updateMove"
+			],
+			[
+				"init",
+				"initiateMove"
+			],
+			[
+				"twe",
+				"tweenY"
+			],
+			[
+				"acti",
+				"active"
+			],
+			[
+				"tween",
+				"tweenY"
 			],
 			[
 				"current",
@@ -30,10 +50,6 @@
 			[
 				"ener",
 				"energyMax"
-			],
-			[
-				"is",
-				"isAwaitingInput"
 			],
 			[
 				"set",
@@ -287,7 +303,7 @@
 			"file": "main.lua",
 			"settings":
 			{
-				"buffer_size": 2042,
+				"buffer_size": 2017,
 				"line_ending": "Unix"
 			}
 		},
@@ -319,7 +335,7 @@
 			"file": "classes/entity.lua",
 			"settings":
 			{
-				"buffer_size": 3314,
+				"buffer_size": 3907,
 				"line_ending": "Unix"
 			}
 		},
@@ -327,7 +343,7 @@
 			"file": "classes/game.lua",
 			"settings":
 			{
-				"buffer_size": 1603,
+				"buffer_size": 1652,
 				"line_ending": "Unix"
 			}
 		},
@@ -335,7 +351,7 @@
 			"file": "classes/dummyunit.lua",
 			"settings":
 			{
-				"buffer_size": 625,
+				"buffer_size": 484,
 				"line_ending": "Unix"
 			}
 		},
@@ -346,15 +362,6 @@
 				"buffer_size": 3044,
 				"line_ending": "Unix",
 				"name": "function love.conf(t)"
-			}
-		},
-		{
-			"file": "/home/element/.config/sublime-text-2/Packages/User/CustomLoveProject.sublime-build",
-			"settings":
-			{
-				"buffer_size": 155,
-				"line_ending": "Unix",
-				"name": "untitled.sublime-build"
 			}
 		},
 		{
@@ -378,7 +385,7 @@
 			"file": "classes/tween.lua",
 			"settings":
 			{
-				"buffer_size": 735,
+				"buffer_size": 808,
 				"line_ending": "Unix"
 			}
 		},
@@ -410,7 +417,7 @@
 			"file": "constants.lua",
 			"settings":
 			{
-				"buffer_size": 102,
+				"buffer_size": 101,
 				"line_ending": "Unix"
 			}
 		},
@@ -496,6 +503,7 @@
 	},
 	"file_history":
 	[
+		"/home/element/.config/sublime-text-2/Packages/User/CustomLoveProject.sublime-build",
 		"/home/element/Documents/CODE/neoRogue/src/classes/game.lua",
 		"/home/element/Documents/CODE/neoRogue/src/classes/classes/entity.lua",
 		"/home/element/Documents/CODE/neoRogue/src/res/fonts/font.png",
@@ -612,7 +620,6 @@
 		"/home/element/Documents/CODE/INFO/TEST MAKE ET C/main.cpp",
 		"/home/element/Documents/COURS/README.md",
 		"/home/element/Documents/COURS/custom.sty",
-		"/home/element/.config/sublime-text-2/Packages/User/CustomLoveProject.sublime-build",
 		"/home/element/result.txt",
 		"/home/element/Documents/CODE/LOVE/Village/button.lua",
 		"/home/element/texmf/custom.sty",
@@ -791,7 +798,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -799,15 +806,15 @@
 					"file": "main.lua",
 					"settings":
 					{
-						"buffer_size": 2042,
+						"buffer_size": 2017,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1059,
-								1059
+								749,
+								749
 							]
 						],
 						"settings":
@@ -816,7 +823,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 273.0,
+						"translation.y": 351.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -906,15 +913,15 @@
 					"file": "classes/entity.lua",
 					"settings":
 					{
-						"buffer_size": 3314,
+						"buffer_size": 3907,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								354,
-								354
+								1763,
+								1763
 							]
 						],
 						"settings":
@@ -923,7 +930,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 685.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -933,15 +940,15 @@
 					"file": "classes/game.lua",
 					"settings":
 					{
-						"buffer_size": 1603,
+						"buffer_size": 1652,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1192,
-								1192
+								340,
+								340
 							]
 						],
 						"settings":
@@ -950,7 +957,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 156.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -960,15 +967,15 @@
 					"file": "classes/dummyunit.lua",
 					"settings":
 					{
-						"buffer_size": 625,
+						"buffer_size": 484,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								435,
-								435
+								308,
+								308
 							]
 						],
 						"settings":
@@ -1013,32 +1020,6 @@
 				},
 				{
 					"buffer": 8,
-					"file": "/home/element/.config/sublime-text-2/Packages/User/CustomLoveProject.sublime-build",
-					"settings":
-					{
-						"buffer_size": 155,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								68,
-								68
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
 					"file": "classes/commands.lua",
 					"settings":
 					{
@@ -1049,8 +1030,8 @@
 						"selection":
 						[
 							[
-								333,
-								333
+								407,
+								407
 							]
 						],
 						"settings":
@@ -1064,7 +1045,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 9,
 					"file": "notes/drafts",
 					"settings":
 					{
@@ -1093,23 +1074,23 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
-					"buffer": 11,
+					"buffer": 10,
 					"file": "classes/tween.lua",
 					"settings":
 					{
-						"buffer_size": 735,
+						"buffer_size": 808,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								537,
-								537
+								710,
+								710
 							]
 						],
 						"settings":
@@ -1124,7 +1105,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 11,
 					"file": "classes/hero.lua",
 					"settings":
 					{
@@ -1152,7 +1133,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 12,
 					"file": "paths.lua",
 					"settings":
 					{
@@ -1178,7 +1159,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 13,
 					"file": "classes/font.lua",
 					"settings":
 					{
@@ -1205,19 +1186,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 14,
 					"file": "constants.lua",
 					"settings":
 					{
-						"buffer_size": 102,
+						"buffer_size": 101,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								101,
-								101
+								100,
+								100
 							]
 						],
 						"settings":
@@ -1231,7 +1212,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 15,
 					"settings":
 					{
 						"buffer_size": 89,

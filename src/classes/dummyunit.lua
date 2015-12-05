@@ -5,10 +5,10 @@ local Tween = require (CLASSES_FOLDER .. "tween")
 
 DummyUnit.glyph = 6 -- '&'' symbol
 
-function DummyUnit:init(x,y)
-	DummyUnit.super.init(self,x,y,self.glyph,5)
+function DummyUnit:init(x,y,game)
+	DummyUnit.super.init(self,x,y,self.glyph,5,game)
 
-	self.theCommand = Commands.nudge(self,16,0)
+	self.theCommand = Commands.nudge(self,1,0)
 end
 
 function DummyUnit:onUpdate(dt)

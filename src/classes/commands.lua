@@ -18,9 +18,15 @@ function Commands.nudge:init(entity,dx,dy)
 	self.dy = dy or 0;
 end
 
+-- Returns false if the command succeded, nil if the command
+-- failed and the is no alternative, and a command
+-- if there is an alternative !
 function Commands.nudge:execute()
+	if (self.entity:getGame():getMap():getChar(self.entity.x+self.dx,self.entity.y+self.dy) == 3) then
+		return nil
+	end	
 	self.entity:nudge(self.dx,self.dy)
+	return false
 end
-
 
 return Commands

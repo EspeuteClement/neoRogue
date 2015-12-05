@@ -21,11 +21,13 @@ Entity.energyMax = 0 -- The maximum energy of the entity
 
 Entity.color = {255,255,0,255};
 -- Entity constructor
-function Entity:init(x,y,glyph,energyMax)
+function Entity:init(x,y,glyph,energyMax,game)
 	self.x = x or 0;
 	self.y = y or 0;
 	self.glyphX = self.x;
 	self.glyphY = self.y;
+	assert(game, "You must declare a game for this Entity")
+	self.game = game
 
 
 	self.glyph = glyph or 0;
@@ -35,8 +37,8 @@ function Entity:init(x,y,glyph,energyMax)
 
 	self.isAwaitingInput = true
 
-	self.tweenX = Tween(self.x,self.x,1,"linear")
-	self.tweenY = Tween(self.y,self.y,1,"linear")
+	self.tweenX = Tween(self.x*FONT_WIDTH,self.x,1,"linear")
+	self.tweenY = Tween(self.y*FONT_HEIGHT,self.y,1,"linear")
 
 end
 
@@ -66,8 +68,8 @@ end
 
 function Entity:initiateMove()
 	self.isMoving = true
-	self.tweenX = Tween(self.tweenX:get(),self.x,0.2,"linear")
-	self.tweenY = Tween(self.tweenY:get(),self.y,0.2,"linear")
+	self.tweenX = Tween(self.tweenX:get(),self.x*FONT_WIDTH,0.2,"linear")
+	self.tweenY = Tween(self.tweenY:get(),self.y*FONT_HEIGHT,0.2,"linear")
 end
 
 function Entity:updateMove(dt)
@@ -90,20 +92,6 @@ function Entity:setCommand(com)
 		if com then
 		self.command = com
 		self:setAwaitingInput(false)
-	end
-end
-
-
--- Execute a turn
-function Entity:executeCommand(com)
-	if	self.command then
-		self.command:execute()
-
-		self.command = nil
-		self:emptyEnergy()
-	end
-	if not self:awaitingInput() then
-		self:manageEnergy()
 	end
 end
 
@@ -148,6 +136,10 @@ end
 -- replenishes before acting again
 function Entity:emptyEnergy()
 	self.energyLevel = 0
+end
+
+function Entity:getGame()
+	return self.game
 end
 
 -- DEPRECATED
